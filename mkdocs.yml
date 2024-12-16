@@ -1,0 +1,14 @@
+site_name: Saltylord Scripts
+site_url: https://saltylord-docs.gitlab.io
+
+theme:
+  name: material
+  logo: assets/logo.png
+  palette:
+    scheme: slate
+    primary: black
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
