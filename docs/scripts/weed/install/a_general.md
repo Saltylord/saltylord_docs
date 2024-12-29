@@ -7,7 +7,7 @@
 - *Copy and paste the items and shops into your inventory*
 - *Copy and paste the images from the images folder into your inventory*
 - *Download and install any empty plant pot model*
-- *Follow additional steps located in Items, Genetics Tracking, Shops, and Framework*
+- *Follow additional steps located in Empty Plant Pots, Items, Shops, Genetics Tracking, and Framework*
 
 ---
 
