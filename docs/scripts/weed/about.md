@@ -7,6 +7,7 @@
 * [ESX](https://github.com/esx-framework/esx_core)
 * [QBX](https://github.com/Qbox-project/qbx_core)
 
+---
 
 ## Dependencies
 * [ox_mysql](https://github.com/overextended/oxmysql)
@@ -14,14 +15,14 @@
 * [ox_inventory](https://github.com/overextended/ox_inventory)
 * [ox_target](https://github.com/overextended/ox_target)
 
+---
 
 ## Custom Plant Models
 * [Shoe Shuffler's Gradient Weed Plants](https://shuffle-shop.tebex.io/package/5930842)
 * [Shoe Shuffler's Psychedelic Weed Plants](https://shuffle-shop.tebex.io/package/5930842)
 * [BzZzi Colored Weed V2](https://bzzz.tebex.io/package/5954200)
 
+---
 
-## Empty Plant Pots
-This script requires an empty plant pot model due to the plant death state. Sadly GTA does not have a empty plant pot model in the game. You will need to find one yourself if you do not want to use BzZzi's empty plant pot models.
-
+## Empty Plant Pots Models
 * [BzZzi's Pots](https://forum.cfx.re/t/props-pots/5271865)

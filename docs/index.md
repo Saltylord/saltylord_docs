@@ -1,14 +1,14 @@
 # Introduction
 
-In this documentation you will find detailed installion guides, answers for general questions, and instructions for integrating my projects into your resources. Thank you for supporting Saltylord Scripts!
+In this documentation you will find detailed installation guides, answers for general questions, and instructions for integrating my scripts into your FiveM server. Thank you for supporting Saltylord Scripts!
 
-## General questions and bug reporting
+## General Questions / Support, Bug Reports, and Suggestions
 
-For general support, reporting an issue, or for submiting a suggestion please join my discord!
+*For support, bug reporting, and suggestions please join my discord!*
 
 [Discord Server](https://discord.gg/HRFQmF98zd)
 
 
-If you would like to see other resources I've created, check out my Tebex page!
+*If you would like to see other resources I've created, check out my Tebex page!*
 
 [Tebex Store](https://saltylordscripts.tebex.io)

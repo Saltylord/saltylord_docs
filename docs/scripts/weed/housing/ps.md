@@ -1,8 +1,14 @@
 # Project Sloth
 
-## ps-housing v1.0
+## Enable Indoor Planting
 
-*ps-housing/server/sv_property.lua*
+```lua
+	Config.allowIndoorPlanting = true
+```
+
+## PS Housing v1.0
+
+*Replace the following functions located inside ps-housing/server/sv_property.lua with the functions provided below.*
 
 ```lua
 	function Property:PlayerEnter(src)
@@ -50,9 +56,10 @@
 
 ---
 
-## ps-housing v2.0
+## PS Housing v2.0
 
-*ps-housing/server/sv_property.lua*
+*Replace the following functions located inside ps-housing/server/sv_property.lua with the functions provided below.*
+
 
 ```lua
 	function Property:PlayerEnter(src)

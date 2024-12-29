@@ -2,23 +2,30 @@
 
 ## **loadIndoorPlants**
 
-Loads any active indoor plants off the players current instance
+Loads active indoor plants off the client's current instance
 
 ```lua
     exports['sl-weed']:loadIndoorPlants(src)
 ```
 
-* src: ```number```
+| arg    | type   |
+| ------ | ------ |
+| `src`  | `int` |
+
 
 ---
 
 ## **deleteIndoorPlants**
 
-Delete any active indoor plant off the players instance
+*Must be used before the client's instance is reset back to 0.*
+
+Delete active indoor plants off the client's current instance
 
 ```lua
     exports['sl-weed']:deleteIndoorPlants(src, instance)
 ```
 
-* src: ```number: Player source```
-* instance: ```number: Current routing bucket the player is in```
+| arg         | type   |
+| ------      | ------ |
+| `src`       | `int` |
+| `instance`  | `int` |

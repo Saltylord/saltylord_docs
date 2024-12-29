@@ -1,6 +1,16 @@
 # NoLag
 
-*Place under function "updatePlantData" inside sl-weed/server/planting.lua*
+## Enable Indoor Planting
+
+```lua
+	Config.allowIndoorPlanting = true
+```
+
+---
+
+## NoLag Housing
+
+*Copy and paste the following server events under "ADD HOUSING SERVER EVENTS HERE" inside the sl-weed/server/main.lua.*
 
 ```lua
 	RegisterNetEvent('nolag_properties:server:property:enter', function(propertyId)

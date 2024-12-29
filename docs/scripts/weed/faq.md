@@ -40,7 +40,7 @@ MainThrd/ ^3> ref^7 (^5@ox_inventory/client.lua^7:448)
 
 # When I place a plant down I can't interact with it (QBX ONLY).
 
-*You need to follow the QBX install instructions and enable '@qbx_core/modules/playerdata.lua' in the fxmanifest.lua*
+*You need to follow the QBX install instructions and add '@qbx_core/modules/playerdata.lua' in the fxmanifest.lua*
 
 ```
 MainThrd/ ^1SCRIPT ERROR: @sl-weed/bridge/qbx/client.lua:4: attempt to index a nil value (global 'QBX')^7
