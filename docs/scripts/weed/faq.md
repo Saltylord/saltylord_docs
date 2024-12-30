@@ -63,3 +63,33 @@ MainThrd/ ^3> handler^7 (^5@sl-weed/client/planting.lua^7:565)
 ```
 
 ---
+
+## When I harvest a plant, I receive 1000 - 2000 buds. Can I change this?
+
+*Yes quite easily! All you need to do is change one variable, that's it. Inside the server/planting.lua file. Find the "processWetWeed" event and change the amount variable to whatever you want.*
+
+```lua
+    RegisterNetEvent('sl-weed:server:processWetWeed', function(slot)
+        local src = source
+        local slotData = exports.ox_inventory:GetSlot(src, slot)
+
+        if not slotData or slotData.metadata.percentage ~= 100 then return end
+
+        local level = getLevelOffExperience(source)
+        local plant = slotData.metadata.plant
+        local amount = -- CHANGE ME TO WHATEVER YOU WANT
+        local metadata = {
+            label = plant.strain,
+            description = "Strain: " .. plant.strain .. "\n\n Type: " .. plant.type .. " \n\n THC%: " .. plant.percentage .. "% \n\n Some of that icky sticky.",
+            image = plant.image,
+            strain = plant.strain,
+            type = plant.type,
+            percentage = plant.percentage
+        }
+
+        if exports.ox_inventory:CanCarryItem(src, 'weed', amount) then
+            exports.ox_inventory:AddItem(src, 'weed', amount, metadata)
+            exports.ox_inventory:RemoveItem(src, 'wet_weed', 1, nil, slot)
+        end
+    end)
+```
