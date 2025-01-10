@@ -8,6 +8,12 @@
 - *Copy and paste the images from the images folder into your inventory*
 - *Download and install any empty plant pot model*
 - *Follow additional steps located in Empty Plant Pots, Items, Shops, Genetics Tracking, and Framework*
+- *Please read through each section below*
+
+---
+
+## Remove Other Weed Scripts
+*For my script to function correctly. You need to remove past weed scripts, items related to these scripts, and database tables related to these scripts. Failure to do this will likely result in start up errors, plants not loading, or general server errors.*
 
 ---
 
@@ -29,7 +35,7 @@
 ---
 
 ## Genetics Tracking / FiveManage
-*With genetics tracking enabled, if you want to use the Genetics Book and see the images of the strains. You will need to set up a FiveManage account. Once you've set one up or if you already have one created. Then you can head to the FiveManage section in the Docs.*
+*With genetics tracking enabled, if you want to use the Genetics Book and see the images of the strains. You will need to set up a FiveManage account. Once you've set one up or if you already have one created. Then you can head to the Genetics Tracking section in the Docs.*
 
 ---
 
